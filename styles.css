@@ -1,0 +1,100 @@
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+header{
+  width:100%;
+  justify-content:space-between;
+  positon:fixed;
+}
+
+body {
+  background:teal;
+	color: #1b1b32;
+	font-family: Helvetica, sans-seriff;
+	margin: 0;
+  padding:20px;
+}
+
+img{
+  display:block;
+  max-width:100%;
+  height:auto;
+  margin:auto;
+}
+
+#img-div img{
+  width:15%;
+  object-fit:cover;
+  margin:auto;
+  padding: 20px 4px;
+  border-radiu:10px;
+}
+
+#img-div, #image{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items:center;
+  padding:0 4px;
+}
+
+h1, h2, h3, figcaption{
+  text-align:center;
+}
+
+figcaption{
+  font-size:12px;
+}
+main{
+  width:100%;
+  background-color:#f5f6f7;
+  margin:auto;
+  padding:20px;
+  max-width:500px;
+}
+
+ul>li{
+  font-size:14px;
+  margin-top:10px;
+  padding:0.2rem;
+  font-family:sans-seriff;
+  font-style:normal;
+}
+
+#quote, h5{
+  text-align:center;
+  text-size:6;
+}
+
+p{
+  color:black;
+  font-family:sans-seriff;
+  font-style:normal;
+}
+
+#quote{
+  color:teal;
+  font-family:slabo;
+}
+
+
+
+a{
+  color:blue;
+}
+
+a:visited{
+  color:pink;
+}
+
+a:hover{
+  color:brown;
+}
+
+a:active{
+  color:brown;
+}

@@ -98,3 +98,24 @@ a:hover{
 a:active{
   color:brown;
 }
+
+.youtube-link{
+overflow:hidden;
+padding-top:30px;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+
+.youtube-link iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+.video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
